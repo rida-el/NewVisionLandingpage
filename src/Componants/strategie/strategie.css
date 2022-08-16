@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@500&display=swap');
+.strategie-font
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+}
+.title-logo
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 86px;
+    line-height: 96px;
+    color: #B11015;
+}
+.sta-texte
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 40px;
+}
+.sta-texte-bold
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+.sta-button
+{
+    width: 300px;
+    height: 68px;
+    border: 2px solid #B11015;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 3rem;
+}
+.sta-button a
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    color: #B11015;
+}
+/* BUTTON 4 */
+
+#button-4{
+    border: 2px solid #34495e;
+    color: #34495e;
+    overflow: hidden;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #button-4:before, #button-4:after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+    background-color: #34495e;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #button-4:after{
+    top: auto;
+    bottom: 50%;
+  }
+  
+  #button-4:hover{
+    color: #ecf0f1;
+  }
+  
+  #button-4:hover:before{
+    height: 50%;
+  }
+  
+  #button-4:hover:after{
+    height: 50%;
+  }
+  
