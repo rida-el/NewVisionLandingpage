@@ -1,0 +1,7 @@
+.bg
+{
+    background-image: url(../img/project-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: initial;
+}
