@@ -5,3 +5,48 @@
     background-size: cover;
     background-clip: initial;
 }
+.tr{
+    border: solid rgb(185, 42, 42);
+}
+
+.font-t1
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #0F214D;
+    
+}
+.font-t2
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    color: #FFFFFF;
+    line-height: 5px;
+    
+}
+
+.font-p
+{
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
+.mockup-img
+{
+    max-width: 520px;
+    max-height: 460px;
+}
+
+.tx-pro
+{
+    align-items: center;
+    justify-content: space-evenly;
+}

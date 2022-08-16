@@ -52,45 +52,28 @@
     line-height: 40px;
     color: #B11015;
 }
-/* BUTTON 4 */
 
-#button-4{
-    border: 2px solid #34495e;
-    color: #34495e;
-    overflow: hidden;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  #button-4:before, #button-4:after{
-    content: "";
+.text-hor
+{
+    writing-mode: vertical-rl;
     position: absolute;
-    width: 100%;
-    height: 0;
     left: 0;
-    top: 50%;
+    top: 130px;
+    height: 100%;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 40px;
+}
+.text-hor-border
+{
+    border-right: solid 1px #858282;
     z-index: -1;
-    background-color: #34495e;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-  }
+}
   
-  #button-4:after{
-    top: auto;
-    bottom: 50%;
-  }
-  
-  #button-4:hover{
-    color: #ecf0f1;
-  }
-  
-  #button-4:hover:before{
-    height: 50%;
-  }
-  
-  #button-4:hover:after{
-    height: 50%;
-  }
-  
+.tr
+{
+  border: solid #B11015;
+  height: 100vh;
+}
