@@ -7,13 +7,10 @@ import Project from "./Componants/Projects/Project";
 
 const App = () => {
   return (
-    <section
-      className="bg-url h-screen bg-Hero bg-cover
-    font-[Poppins] md:bg-top bg-center"
-    >
+    <>
+    <div className="bg-url bg-center h-screen ">
       <Navbar />
       <div className="flex flex-col justify-center text-center items-center h-3/4 relative">
-        {/* <h2 className="text-2xl font-medium ">Fashion Tips</h2> */}
         <h1 className="font md:text-5xl text-3xl py-1 text-white absolute top-28 left-40">
           explorons les limites du <span className="sous-font">digital</span>
         </h1>
@@ -30,10 +27,11 @@ const App = () => {
           <p className="text-3xl rot absolute top-30">SCROL</p>
         </div>
       </div>
-      <Strategie />
+      
+    </div>
+    <Strategie />
       <Project />
-    </section>
-    
+      </>
   );
 };
 
