@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.bg-url
+{
+  background-image: url(./assets/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: initial;
+  
+}
+
+.hero-size
+{
+  width: 705px;
+  height: 370px;
+}
+.sous-font
+{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+}
+.font
+{
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size:36px;
+  line-height: 44px;  
+}
+.rot
+{
+  rotate: -90deg;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-size:16px;
+  color: aliceblue;
+  position: absolute;
+  bottom: 10px;
 }
