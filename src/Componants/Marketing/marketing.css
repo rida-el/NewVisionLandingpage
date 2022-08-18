@@ -1,0 +1,135 @@
+/*Animations are sped up so you're not sitting here all day*/
+
+/*Desktop and Tablet*/
+@-webkit-keyframes slide {
+    0% { margin:0; }
+    5%,50% { margin:0 0 0 -100%; }
+    53%, 100% { margin:0; }
+  }
+  @-moz-keyframes slide {
+    0% { margin:0; }
+    5%,50% { margin:0 0 0 -100%; }
+    55%,100% { margin:0; }
+  }
+  @-ms-keyframes slide {
+    0% { margin:0; }
+    5%,50% { margin:0 0 0 -100%; }
+    55%,100% { margin:0; }
+  }
+  @-o-keyframes slide {
+    0% { margin:0; }
+    5%,50% { margin:0 0 0 -100%; }
+    55%,100% { margin:0; }
+  }
+  @keyframes slide {
+    0% { margin:0; }
+    5%,50% { margin:0 0 0 -100%; }
+    55%,100% { margin:0; }
+  }
+  
+  /*Mobile*/
+  @-webkit-keyframes slide_mobile {
+    0%, 22% { margin:0; }
+    25%, 47% { margin:0 0 0 -100%; }  
+    50%, 72% { margin:0 0 0 -200%; }
+    75%, 97% { margin:0 0 0 -300%; }
+    100% { margin:0; }
+  }
+  
+  @-moz-keyframes slide_mobile {
+    0%, 22% { margin:0; }
+    25%, 47% { margin:0 0 0 -100%; }  
+    50%, 72% { margin:0 0 0 -200%; }
+    75%, 97% { margin:0 0 0 -300%; }
+    100% { margin:0; }
+  }
+  
+  @-ms-keyframes slide_mobile {
+    0%, 22% { margin:0; }
+    25%, 47% { margin:0 0 0 -100%; }  
+    50%, 72% { margin:0 0 0 -200%; }
+    75%, 97% { margin:0 0 0 -300%; }
+    100% { margin:0; }
+  }
+  
+  @-o-keyframes slide_mobile {
+    0%, 22% { margin:0; }
+    25%, 47% { margin:0 0 0 -100%; }  
+    50%, 72% { margin:0 0 0 -200%; }
+    75%, 97% { margin:0 0 0 -300%; }
+    100% { margin:0; }
+  }
+  
+  @keyframes slide_mobile {
+    0%, 22% { margin:0; }
+    25%, 47% { margin:0 0 0 -100%; }  
+    50%, 72% { margin:0 0 0 -200%; }
+    75%, 97% { margin:0 0 0 -300%; }
+    100% { margin:0; }
+  }
+  
+.rotator-wrap {
+          overflow:hidden;
+          min-height:100px;
+          width:100%;
+          border-radius:5px;
+        }
+  
+      .rotator {
+          width:200%;
+          overflow:hidden;
+          margin:0;
+          list-style:none;
+          padding:0;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ea1c8', endColorstr='#3d6ea5',GradientType=1 ); /* IE6-9 */
+  
+  /*Change the length of the animation here*/
+          -webkit-animation: slide 10s infinite ease-out 5s;
+          -moz-animation:    slide 15s infinite ease-out 5s;
+          -ms-animation:     slide 15s infinite ease-out 5s;
+          -o-animation:      slide 15s infinite ease-out 5s;
+          animation:         slide 15s infinite ease-out 5s;
+      }
+  
+      .rotator > li {
+          padding:15px;
+          width:12.5%;
+          float:left;
+          margin:0;
+          box-sizing:border-box;
+          
+          
+          -webkit-transition:margin .2s ease-out;
+          -moz-transition:margin .2s ease-out;
+          -ms-transition:margin .2s ease-out;
+          -o-transition:margin .2s ease-out;
+          transition:margin .2s ease-out;
+      }
+      .rotator > li > div > img:hover {
+        /* margin:-7px 0 0 0; */
+        cursor:pointer;
+        transition: all 1s ease-in-out;
+        transform: scale(1.1);
+        
+      }
+      .rotator > li > div > img {
+        width:55%;
+        height:55%;
+      }
+  
+      @media only screen and (max-width: 767px) {
+          .rotator {
+              /* width:266%; */
+          }
+      }
+  
+      @media only screen and (max-width: 520px) {
+          .rotator {
+              /* width:400%; */
+              -webkit-animation: slide_mobile 25s infinite ease-out;
+              -moz-animation:    slide_mobile 25s infinite ease-out;
+              -ms-animation:     slide_mobile 25s infinite ease-out;
+              -o-animation:      slide_mobile 25s infinite ease-out;
+              animation:         slide_mobile 25s infinite ease-out;
+          }
+      }
